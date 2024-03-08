@@ -1,0 +1,9 @@
+.softneumorphicelegance {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f0f0f0;
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2),
+               -8px -8px 16px 0 rgba(255, 255, 255, 0.5);
+  }
+  

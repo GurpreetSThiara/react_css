@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    background-color: #fbf1ff;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 100px;
+}
+
+.navbar-heading{
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar-buttons{
+    gap: 0.3rem;
+    display: flex;
+    align-items: center;
+
+}
+
+@media (maxWidth:740px) {
+    .navbar-buttons{
+      
+        display: none;
+      
+    
+    }
+}

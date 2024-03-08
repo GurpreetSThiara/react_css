@@ -1,0 +1,113 @@
+/* .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    flex-grow: 1;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff; 
+  }
+  
+  .input-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-button:hover {
+    background-color: #0056b3; 
+  }
+   */
+
+   /* ColorsPage.css */
+
+/* Container styles */
+.colorpage{
+    padding: 0 10px;
+}
+.colorpage-heading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Input container styles */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .input-button {
+    background-color: #40B7F0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .input-button:hover {
+    background-color: #2189c8;
+  }
+  
+  /* ColorPalette component styles */
+  .color-palette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  /* ImageToColors component styles */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

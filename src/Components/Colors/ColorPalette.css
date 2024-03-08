@@ -1,0 +1,38 @@
+/* src/components/ColorPalette.css */
+.color-palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+    gap: 8px;
+  }
+  
+  .box {
+    border: 2px solid #fff6ff; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .color-box {
+    width: 80px; /* Adjusted width */
+    height: 80px; /* Adjusted height */
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .copied-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
