@@ -2,8 +2,11 @@ import React,{useState} from 'react'
 import './ColorsPage.css'
 import ColorPalette from '../../Components/Colors/ColorPalette';
 import ImageToColors from '../../Components/ImageToColors/ImageToColors';
+import SameColorWithShades from '../../Components/Colors/SameColorWithShades/SameColorWithShades';
+import SameColorWithDarkShades from '../../Components/Colors/SameColorWithDarkShades/SameColorWithDarkShades';
 
 const ColorsPage = () => {
+  const[selectedPalette , setSelectedPalatte] = useState('default');
     const [inputColor, setInputColor] = useState('#ffffff');
     const [inputColor1, setInputColor1] = useState('#ffffff');
 
@@ -25,7 +28,15 @@ const ColorsPage = () => {
     };
   return (
     <div className='colorpage'>
-        <h2 className='colorpage-heading'>Generate Similar Colors</h2>
+      <div className='colorpage-header'>
+     <div>
+     <h2 className='colorpage-heading'>Generate Similar Colors</h2>
+     </div>
+     <div  onClick={()=>{setSelectedPalatte('default')}} className={`${selectedPalette === 'default'?'pallete':'cursor'}`}>default</div>
+     <div onClick={()=>{setSelectedPalatte('light')}} className={`${selectedPalette === 'light'?'pallete':'cursor'}`}>Light Shades</div>
+     <div onClick={()=>{setSelectedPalatte('dark')}} className={`${selectedPalette === 'dark'?'pallete':'cursor'}`}>Dark Shades</div>
+     
+      </div>
           <div className="input-container">
         <input
           type="text"
@@ -36,7 +47,7 @@ const ColorsPage = () => {
         />
         <button onClick={()=>{handleGeneratePalette(inputColor)}} className="input-button">Generate Palette</button>
       </div>
-        <ColorPalette inputColor={inputColor1}/>
+      {selectedPalette !== 'default'?selectedPalette==='dark'?<SameColorWithDarkShades inputColor={inputColor1} />:<SameColorWithShades inputColor={inputColor1} />:<ColorPalette inputColor={inputColor1}/>}  
 
         <ImageToColors/>
       

@@ -86,8 +86,29 @@
     background-color: #218838;
   }
   
+ 
+    
   .allbuttons{
     margin: 10px;
+   padding: 10px;
+    border-radius: 20px;
+    background: #f8f8f8;
+    box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, 0.1),
+               -6px -6px 12px 0 rgba(255, 255, 255, 0.3);
 
 
+  }
+
+  .buttoncard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+  .buttoncsscode{
+    max-width: 300px;
+    height: 400px;overflow-x: auto;
   }

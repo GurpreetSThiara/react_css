@@ -2057,3 +2057,588 @@
     }
   }
   
+  /* Vibrant Velocity */
+.vibrant-velocity {
+    background: linear-gradient(45deg, #FF9F7E, #FFBF69);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .vibrant-velocity:hover {
+    background: linear-gradient(45deg, #FFBF69, #FF9F7E);
+  }
+  
+  /* Luminous Luminary */
+  .luminous-luminary {
+    background: linear-gradient(45deg, #FD297B, #FF655B);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .luminous-luminary:hover {
+    background: linear-gradient(45deg, #FF655B, #FD297B);
+  }
+  
+  /* Ethereal Essence */
+  .ethereal-essence {
+    background: linear-gradient(45deg, #3D7EAA, #FFE47A);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ethereal-essence:hover {
+    background: linear-gradient(45deg, #FFE47A, #3D7EAA);
+  }
+  
+  /* Celestial Comet */
+  .celestial-comet {
+    background: linear-gradient(45deg, #FFA8A8, #FFD3B6);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .celestial-comet:hover {
+    background: linear-gradient(45deg, #FFD3B6, #FFA8A8);
+  }
+  
+  /* Aurora Borealis */
+  .aurora-borealis {
+    background: linear-gradient(45deg, #57C6E1, #7B50A3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .aurora-borealis:hover {
+    background: linear-gradient(45deg, #7B50A3, #57C6E1);
+  }
+  
+  /* Galactic Glitter */
+  .galactic-glitter {
+    background: linear-gradient(45deg, #FFE700, #FFDADA);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .galactic-glitter:hover {
+    background: linear-gradient(45deg, #FFDADA, #FFE700);
+  }
+  
+  /* Solar Shine */
+  .solar-shine {
+    background: linear-gradient(45deg, #FFAF9E, #FFD3B6);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .solar-shine:hover {
+    background: linear-gradient(45deg, #FFD3B6, #FFAF9E);
+  }
+  
+  /* Moonlit Mirage */
+  .moonlit-mirage {
+    background: linear-gradient(45deg, #A0E7E5, #86A8E7);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .moonlit-mirage:hover {
+    background: linear-gradient(45deg, #86A8E7, #A0E7E5);
+  }
+  
+  /* Stellar Stream */
+  .stellar-stream {
+    background: linear-gradient(45deg, #00DBDE, #FC00FF);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .stellar-stream:hover {
+    background: linear-gradient(45deg, #FC00FF, #00DBDE);
+  }
+  
+  /* Supernova Surge */
+  .supernova-surge {
+    background: linear-gradient(45deg, #FA71CD, #C471FB);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .supernova-surge:hover {
+    background: linear-gradient(45deg, #C471FB, #FA71CD);
+  }
+  
+  /* Nebula Nexus */
+.nebula-nexus {
+    background: linear-gradient(45deg, #FF7E5F, #FFB86F);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .nebula-nexus:hover {
+    background: linear-gradient(45deg, #FFB86F, #FF7E5F);
+  }
+  
+  /* Twilight Twilight */
+  .twilight-twilight {
+    background: linear-gradient(45deg, #355C7D, #6C5B7B);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .twilight-twilight:hover {
+    background: linear-gradient(45deg, #6C5B7B, #355C7D);
+  }
+  
+  /* Radiant Rays */
+  .radiant-rays {
+    background: linear-gradient(45deg, #FC5C7D, #6A82FB);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .radiant-rays:hover {
+    background: linear-gradient(45deg, #6A82FB, #FC5C7D);
+  }
+  
+  /* Vivid Vision */
+  .vivid-vision {
+    background: linear-gradient(45deg, #3B4371, #F3904F);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .vivid-vision:hover {
+    background: linear-gradient(45deg, #F3904F, #3B4371);
+  }
+  
+  /* Galaxy Glitz */
+  .galaxy-glitz {
+    background: linear-gradient(45deg, #6A11CB, #2575FC);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .galaxy-glitz:hover {
+    background: linear-gradient(45deg, #2575FC, #6A11CB);
+  }
+  
+  /* Lunar Luster */
+  .lunar-luster {
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .lunar-luster:hover {
+    background: linear-gradient(45deg, #4A00E0, #8E2DE2);
+  }
+  
+  /* Solar Flare */
+  .solar-flare {
+    background: linear-gradient(45deg, #FFD662, #FF974A);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .solar-flare:hover {
+    background: linear-gradient(45deg, #FF974A, #FFD662);
+  }
+  
+  /* Azure Aura */
+  .azure-aura {
+    background: linear-gradient(45deg, #1488CC, #2B32B2);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .azure-aura:hover {
+    background: linear-gradient(45deg, #2B32B2, #1488CC);
+  }
+  
+  /* Stardust Stream */
+  .stardust-stream {
+    background: linear-gradient(45deg, #F6D365, #FDA085);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .stardust-stream:hover {
+    background: linear-gradient(45deg, #FDA085, #F6D365);
+  }
+  
+  /* Celestial Cascade */
+  .celestial-cascade {
+    background: linear-gradient(45deg, #BD8B9C, #FF9A8B);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .celestial-cascade:hover {
+    background: linear-gradient(45deg, #FF9A8B, #BD8B9C);
+  }
+  
+  /* Astral Array */
+  .astral-array {
+    background: linear-gradient(45deg, #E1F5C4, #FF9A8B);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .astral-array:hover {
+    background: linear-gradient(45deg, #FF9A8B, #E1F5C4);
+  }
+  
+  /* Nebulous Nova */
+  .nebulous-nova {
+    background: linear-gradient(45deg, #DAE2F8, #D6A4A4);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .nebulous-nova:hover {
+    background: linear-gradient(45deg, #D6A4A4, #DAE2F8);
+  }
+  
+  /* Eclipse Essence */
+  .eclipse-essence {
+    background: linear-gradient(45deg, #0F2027, #203A43, #2C5364);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .eclipse-essence:hover {
+    background: linear-gradient(45deg, #2C5364, #203A43, #0F2027);
+  }
+  
+  /* Radiant Rising */
+  .radiant-rising {
+    background: linear-gradient(45deg, #FF512F, #DD2476);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .radiant-rising:hover {
+    background: linear-gradient(45deg, #DD2476, #FF512F);
+  }
+  
+  /* Galactic Glow */
+  .galactic-glow {
+    background: linear-gradient(45deg, #C31432, #240B36);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .galactic-glow:hover {
+    background: linear-gradient(45deg, #240B36, #C31432);
+  }
+  
+  /* Luminous Lagoon */
+.luminous-lagoon {
+    background: linear-gradient(45deg, #17EAD9, #6078EA);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .luminous-lagoon:hover {
+    background: linear-gradient(45deg, #6078EA, #17EAD9);
+  }
+  
+  /* Solar Sizzle */
+  .solar-sizzle {
+    background: linear-gradient(45deg, #FFD200, #FF9000);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .solar-sizzle:hover {
+    background: linear-gradient(45deg, #FF9000, #FFD200);
+  }
+  
+  /* Galactic Glow */
+  .galactic-glow {
+    background: linear-gradient(45deg, #0099F7, #F11712);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .galactic-glow:hover {
+    background: linear-gradient(45deg, #F11712, #0099F7);
+  }
+  
+  /* Stellar Shine */
+  .stellar-shine {
+    background: linear-gradient(45deg, #FADA5E, #F4E3B2);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .stellar-shine:hover {
+    background: linear-gradient(45deg, #F4E3B2, #FADA5E);
+  }
+  
+  /* Aurora Array */
+  .aurora-array {
+    background: linear-gradient(45deg, #FBAB7E, #F7CE68);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .aurora-array:hover {
+    background: linear-gradient(45deg, #F7CE68, #FBAB7E);
+  }
+  
+  /* Celestial Cascade */
+  .celestial-cascade {
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .celestial-cascade:hover {
+    background: linear-gradient(45deg, #6dd5ed, #2193b0);
+  }
+  
+  /* Radiant Radiance */
+  .radiant-radiance {
+    background: linear-gradient(45deg, #F36265, #961276);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .radiant-radiance:hover {
+    background: linear-gradient(45deg, #961276, #F36265);
+  }
+  
+  /* Astral Aura */
+  .astral-aura {
+    background: linear-gradient(45deg, #6441A5, #2a0845);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .astral-aura:hover {
+    background: linear-gradient(45deg, #2a0845, #6441A5);
+  }
+  
+  /* Ethereal Ember */
+  .ethereal-ember {
+    background: linear-gradient(45deg, #DD5E89, #F7BB97);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ethereal-ember:hover {
+    background: linear-gradient(45deg, #F7BB97, #DD5E89);
+  }
+  
+  /* Moonlit Melody */
+  .moonlit-melody {
+    background: linear-gradient(45deg, #7028E4, #E5B2CA);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .moonlit-melody:hover {
+    background: linear-gradient(45deg, #E5B2CA, #7028E4);
+  }
+  
+  /* Cosmic Clarity */
+  .cosmic-clarity {
+    background: linear-gradient(45deg, #000000, #434343);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cosmic-clarity:hover {
+    background: linear-gradient(45deg, #434343, #000000);
+  }
+  
+  /* Stardust Symphony */
+  .stardust-symphony {
+    background: linear-gradient(45deg, #4776E6, #8E54E9);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .stardust-symphony:hover {
+    background: linear-gradient(45deg, #8E54E9, #4776E6);
+  }
+  
+  /* Ethereal Enigma */
+  .ethereal-enigma {
+    background: linear-gradient(45deg, #D3CCE3, #E9E4F0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ethereal-enigma:hover {
+    background: linear-gradient(45deg, #E9E4F0, #D3CCE3);
+  }
+  
+  /* Nebula Nirvana */
+  .nebula-nirvana {
+    background: linear-gradient(45deg, #03A9F4, #00BCD4);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .nebula-nirvana:hover {
+    background: linear-gradient(45deg, #00BCD4, #03A9F4);
+  }
+  

@@ -1,34 +1,30 @@
-.navbar{
-    display: flex;
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #fbf1ff;
-    padding: 0px;
-    margin: 0px;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     height: 100px;
-}
-
-.navbar-heading{
-    font-size: 30;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.navbar-buttons{
-    gap: 0.3rem;
-    display: flex;
+    z-index: 1000; /* Ensure it's above other content */
+    transition: all 1s ease;
+        display: flex;
     align-items: center;
-
-}
-
-@media (maxWidth:740px) {
-    .navbar-buttons{
-      
-        display: none;
-      
-    
-    }
-}
+    justify-content: space-between;
+  }
+  
+  .navbar-heading {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+  }
+  
+  .navbar.navbar-hidden {
+    position:fixed;
+  }
+  
