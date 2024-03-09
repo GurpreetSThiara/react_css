@@ -32,9 +32,11 @@ const ColorsPage = () => {
      <div>
      <h2 className='colorpage-heading'>Generate Similar Colors</h2>
      </div>
-     <div  onClick={()=>{setSelectedPalatte('default')}} className={`${selectedPalette === 'default'?'pallete':'cursor'}`}>default</div>
+    <div className='colorpage-header-items'>
+    <div  onClick={()=>{setSelectedPalatte('default')}} className={`${selectedPalette === 'default'?'pallete':'cursor'}`}>default</div>
      <div onClick={()=>{setSelectedPalatte('light')}} className={`${selectedPalette === 'light'?'pallete':'cursor'}`}>Light Shades</div>
      <div onClick={()=>{setSelectedPalatte('dark')}} className={`${selectedPalette === 'dark'?'pallete':'cursor'}`}>Dark Shades</div>
+    </div>
      
       </div>
           <div className="input-container">
@@ -49,7 +51,7 @@ const ColorsPage = () => {
       </div>
       {selectedPalette !== 'default'?selectedPalette==='dark'?<SameColorWithDarkShades inputColor={inputColor1} />:<SameColorWithShades inputColor={inputColor1} />:<ColorPalette inputColor={inputColor1}/>}  
 
-        <ImageToColors/>
+        {/* <ImageToColors/> */}
       
     </div>
   )
