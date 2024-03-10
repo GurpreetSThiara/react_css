@@ -48,7 +48,7 @@ const ColorPalette = ({ inputColor = "#000000" }) => {
           <ColorBox color={color} />
         </CopyToClipboard>
       ))}
-      {copiedColor && <div className="copied-message">Copied: {copiedColor}</div>}
+      {copiedColor && <div  className="copied-message" > <h4 >Copied: {copiedColor}</h4></div>}
     </div>
   );
 };
