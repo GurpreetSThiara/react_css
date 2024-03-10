@@ -4,6 +4,7 @@ import ColorPalette from '../../Components/Colors/ColorPalette';
 import ImageToColors from '../../Components/ImageToColors/ImageToColors';
 import SameColorWithShades from '../../Components/Colors/SameColorWithShades/SameColorWithShades';
 import SameColorWithDarkShades from '../../Components/Colors/SameColorWithDarkShades/SameColorWithDarkShades';
+import ColorMixingPage from '../ColorMixingPage/ColorMixingPage';
 
 const ColorsPage = () => {
   const[selectedPalette , setSelectedPalatte] = useState('default');
@@ -36,6 +37,7 @@ const ColorsPage = () => {
     <div  onClick={()=>{setSelectedPalatte('default')}} className={`${selectedPalette === 'default'?'pallete':'cursor'}`}>default</div>
      <div onClick={()=>{setSelectedPalatte('light')}} className={`${selectedPalette === 'light'?'pallete':'cursor'}`}>Light Shades</div>
      <div onClick={()=>{setSelectedPalatte('dark')}} className={`${selectedPalette === 'dark'?'pallete':'cursor'}`}>Dark Shades</div>
+     {/* <div onClick={()=>{setSelectedPalatte('mixer')}} className={`${selectedPalette === 'mixer'?'pallete':'cursor'}`}>Mixer</div> */}
     </div>
      
       </div>
@@ -47,9 +49,13 @@ const ColorsPage = () => {
           placeholder="Enter color code"
           className="input-field"
         />
-        <button onClick={()=>{handleGeneratePalette(inputColor)}} className="input-button">Generate Palette</button>
+        <button onClick={()=>{handleGeneratePalette(inputColor)}} className="input-button">Generate</button>
       </div>
-      {selectedPalette !== 'default'?selectedPalette==='dark'?<SameColorWithDarkShades inputColor={inputColor1} />:<SameColorWithShades inputColor={inputColor1} />:<ColorPalette inputColor={inputColor1}/>}  
+      {/* {selectedPalette !== 'default'?selectedPalette==='dark'?<SameColorWithDarkShades inputColor={inputColor1} />:<SameColorWithShades inputColor={inputColor1} />:<ColorPalette inputColor={inputColor1}/>}  */}
+      {selectedPalette === 'default' && <ColorPalette inputColor={inputColor1}/>} 
+      {selectedPalette === 'light' && <SameColorWithShades inputColor={inputColor1}/>} 
+      {selectedPalette === 'dark' && <SameColorWithDarkShades inputColor={inputColor1} />} 
+      {selectedPalette === 'mixer' && <ColorMixingPage inputColor={inputColor1}/>} 
 
         {/* <ImageToColors/> */}
       
